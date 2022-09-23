@@ -64,4 +64,5 @@ footer{
     color: red;
     font-size: 50px;
     margin-top: 45px;
+    transition: all .5s;
 }
