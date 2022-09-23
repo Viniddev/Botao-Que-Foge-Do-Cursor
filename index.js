@@ -20,6 +20,18 @@ function entrar(){
     }
     if (estado == 3){
         nao.style.transform="translate(-325px, -150px)"
+    }
+    if (estado == 4){
+        nao.style.transform="translate(+135px, +150px)"
+    }
+    if (estado == 5){
+        nao.style.transform="translate(+135px, -150px)"
+    }
+    if (estado == 6){
+        nao.style.transform="translate(-325px, +150px)"
+    }
+    if (estado == 7){
+        nao.style.transform="translate(-325px, -150px)"
         estado = -1
     }
 }
