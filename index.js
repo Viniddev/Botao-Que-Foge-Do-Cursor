@@ -43,6 +43,8 @@ function clicar(){
     sim.style.transform="translate(0px)"
     nao.style.transform="translate(0px, 0px)"
 
+    resp.style.opacity= 1;
+
     setTimeout(function(){
         resp.style.opacity = 0;
       }, 3000 )
